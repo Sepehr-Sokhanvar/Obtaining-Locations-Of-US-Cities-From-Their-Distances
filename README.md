@@ -16,9 +16,9 @@ This algorithm is called **Multidimensional scaling**, which is used to recover 
 https://en.wikipedia.org/wiki/Multidimensional_scaling
 ## Figures
 #### Heatmap of the euclidian distances
-[Heatmap](images/heatmap.PNG)
+![Heatmap](images/heatmap.PNG)
 #### Plot of estimated city locations
-[Citymap](images/recovered_locations.PNG)
+![Citymap](images/recovered_locations.PNG)
 
 ## Code Walkthrough
 
