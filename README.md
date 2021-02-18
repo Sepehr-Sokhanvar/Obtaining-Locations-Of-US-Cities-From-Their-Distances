@@ -2,7 +2,7 @@
 
 ## Problem Description
 ### Given:
-A distance matrix (nxn) of the distances between a set of cities.
+A distance matrix (nxn) of the distances between a set of cities. Contained in UScities.txt
 ### Objective:
 Create an algorithm that recovers the locations of the cities such that their pairwise distances remain the same.
 
@@ -15,10 +15,14 @@ Given the distance matrix D, we can find the gram matrix of the set of points P 
 This algorithm is called **Multidimensional scaling**, which is used to recover points from pairwise distances.
 https://en.wikipedia.org/wiki/Multidimensional_scaling
 ## Figures
-#### Heatmap of the euclidian distances
+### Heatmap of the euclidian distances
 ![Heatmap](images/heatmap.PNG)
-#### Plot of estimated city locations
+
+This heatmap is the 20x20 distance matrix from *UScities.txt*. The dark points are small distances and the bright points are large distances between cities.
+### Plot of estimated city locations
 ![Citymap](images/recovered_locations.PNG)
+
+Using the multidimensional scaling algorithm I recovered this map of 20 US cities that maintain the euclidian distances given in *UScities.txt*
 
 ## Code Walkthrough
 
