@@ -1,10 +1,13 @@
 # Recovering Locations From Distances
 
 ## Problem Description
+### Objective:
+- Visualize the given distance matrix as a heatmap
+- Create an algorithm that recovers the locations of the cities such that their pairwise distances remain the same
+- Plot the recovered locations of the cities and identify the points to verify that the algorithm worked
 ### Given:
 A distance matrix (nxn) of the distances between a set of cities. Contained in UScities.txt
-### Objective:
-Create an algorithm that recovers the locations of the cities such that their pairwise distances remain the same.
+
 
 ## Solution and Proof
 Given the distance matrix D, we can find the gram matrix of the set of points P (nxn matrix). We can use eigenvalue decomposition to recover the matrix P, which contains the locations of the points. Singular value decomposition generalizes the eigendecomposition to asymetric matrices (non-square). 
