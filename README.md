@@ -28,4 +28,4 @@ This heatmap is the 20x20 distance matrix from *UScities.txt*. The dark points a
 Using the multidimensional scaling algorithm I recovered this map of 20 US cities that maintain the euclidian distances given in *UScities.txt*
 
 ## Code Walkthrough
-
+TODO
